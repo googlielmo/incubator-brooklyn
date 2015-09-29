@@ -45,7 +45,7 @@ Whether to use https rather than http is configurable using the CLI option `--ht
 the port to use is configurable using the CLI option `--port <port>`.
 
 To enable remote Brooklyn access, ensure these ports are open in the firewall.
-For example, to open port 8443 in iptables, ues the command:
+For example, to open port 8443 in iptables, use the command:
 
     /sbin/iptables -I INPUT -p TCP --dport 8443 -j ACCEPT
 
